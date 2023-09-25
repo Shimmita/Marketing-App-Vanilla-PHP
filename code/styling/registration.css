@@ -1,0 +1,88 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite
+}
+
+#cart{
+    width: 100px;
+    border-radius: 10rem;
+
+}
+
+#container,#container2,#container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    color: rgb(56, 116, 228);
+}
+
+#subheader{
+    color: purple;
+}
+
+#main_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header
+{
+    margin: 2rem;
+}
+
+#item_register{
+    border: 1px solid olivedrab;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+#firstname,#lastname,#useremail,#userpass,#usercounty,#userphone{
+    margin: 3rem;
+    padding: .6rem;
+    border: none;
+    border: 1px solid purple;
+    border-radius: 1rem;
+    color: blueviolet;
+}
+
+#useremail{
+ margin-left: 2rem;
+}
+
+#userpass{
+margin-left: 2rem;
+}
+
+#usercounty{
+margin-left: 1rem;
+
+}
+
+#userphone{
+    margin-left: 2rem;
+}
+
+#btn_reg{
+    padding: .8rem;
+    background-color: bisque;
+    border-radius: .5rem;
+    border-color: orange;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+
+      
+}
+
+#btn_reg:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+

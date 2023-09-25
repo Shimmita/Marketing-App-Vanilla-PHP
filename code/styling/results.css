@@ -1,0 +1,146 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#results_header{
+
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+
+#span_h1_results
+{
+    color: rgb(87, 114, 34);
+}
+
+#subheading_results{
+    color:rgb(86, 79, 136);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#search_results{
+    color:blueviolet;
+    margin-top: 1rem;
+}
+
+#btn_home{
+    padding: .3rem 1.5rem;
+    margin-left: 2rem;
+    border: .5rem solid goldenrod;
+    box-shadow: 1px 1px 1px #888;
+    color: green;
+    font-style: bold;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+#btn_home:hover{
+    scale: 1.1;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(252, 241, 227);
+
+
+}
+
+
+#item_name,#item_price,#item_owner{
+
+    border: none;
+    padding: .5rem;
+    font-weight: bold;
+    background-color: none;
+}
+
+#item_name{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#item_owner
+{
+    margin-left: .3rem;
+    text-transform: lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#item_price{
+    color: green;
+    margin-left: 0;
+    margin-left: .2rem;
+}
+
+ #image_item{
+    width: 290px;
+    height: 220px;
+    border-radius: 1rem;
+   
+ }
+
+ #image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #image_item:hover{
+    scale: 1.05;
+ }
+
+ #btn_add{
+  border: none;
+  background-color:rgb(141, 233, 22);
+  margin: .3rem;
+  border-radius: 1rem;
+  padding: .8rem;
+ }
+
+ #btn_add:hover
+ {
+    scale: 1.1;
+    cursor: pointer;
+ }
+
+ #btn_delete{
+  border: none;
+  background-color: rgb(255, 102, 0);
+  margin: .3rem;
+  border-radius: 1rem;
+  padding: .8rem;
+ }
+
+ #btn_delete:hover
+ {
+    cursor: pointer;
+    scale: 1.1;
+ }
+
+
+
+ #results_form{
+   margin: 5px;
+   border-radius: 1rem;
+   padding: .5rem;
+   box-sizing: border-box;
+   border: 1px solid wheat;
+
+
+ }
+
+
+

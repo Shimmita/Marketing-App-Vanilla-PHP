@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#name,#owner,#price{
+padding: 3px;
+border: none;
+background-color: white;
+margin-top: 10px;
+font-size: medium;
+}
+
+
+
+#cart{
+    border:1px solid plum;
+    padding: 10px;
+    border-radius: 1rem;
+    font-size: medium;
+    margin-top: 5px;
+    margin-left: .1rem;
+    background-color: rgb(255, 200,0);
+    box-sizing: 1px 1px 1px #8888;
+}
+#cart:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#main_form{
+   
+   margin: 5px;
+   border-radius: 1rem;
+   padding: .5rem;
+   box-sizing: border-box;
+   border: .18rem solid rgb(236, 220, 220);
+}
+
+#img_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    width:290px;
+    height: 220px;
+    border-radius: 1rem;
+    
+}
+
+#image:hover{
+    scale: 1.02;
+}
+
+
+
+
+#owner,#name{
+    text-transform:lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    align-items: center;
+    justify-content: space-around;
+}
+
+#price{
+
+    color: green;
+}
+
+#name{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav_header{
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+
+#heading{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#subheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: cursive;
+}
+
+#span_h1{
+color: orange;
+}
+
+
+#icon_logo{
+    width: 110px;
+    margin: auto;
+    border-radius: 20rem;
+}
+
+#icon_logo:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home,#register,#login,#cartref
+{
+    background-color:aliceblue;
+    text-decoration: none;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: cornflowerblue;
+}
+
+#home:hover{
+    scale: 1.1;
+}
+
+#register:hover{
+    scale: 1.1;
+}
+#login:hover{
+scale: 1.1;
+}
+
+#cartref{
+    font-size: larger;
+    font-weight: bolder;
+}
+#cartref:hover{
+    scale: 1.1;
+}
+
+#search_box{
+   
+padding: 1rem;  
+margin: 1rem;
+border: none;
+}
+
+
+
+#submit{
+padding: 1rem;
+border-radius: .5rem;
+margin: 1rem;
+border: none;
+background-color: rgb(255, 200,0);
+}
+
+#submit:hover{
+    scale: 1.1;
+}
+
+#container_search{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 2rem;
+}
+
+
+#main_header_container{
+    background-color:antiquewhite;
+    border-radius: 1rem;
+}
+
+#trolley_cart{
+    width: 40px;
+    margin-right: 5rem;
+}
+
+

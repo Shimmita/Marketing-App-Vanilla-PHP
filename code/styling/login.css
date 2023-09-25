@@ -1,0 +1,97 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+#cart{
+    width: 100px;
+    border-radius: 10rem;
+
+}
+
+#container,#container2,#container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    color: rgb(56, 116, 228);
+}
+
+#subheader{
+    color: purple;
+}
+
+#main_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header
+{
+    margin: 2rem;
+}
+
+#item_login{
+    border: 1px solid olivedrab;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+#useremail,#userpass{
+    margin: 3rem;
+    padding: .6rem;
+    border: none;
+    border: 1px solid purple;
+    border-radius: 1rem;
+    color: blueviolet;
+}
+
+#useremail{
+ margin-left: 2rem;
+}
+
+#userpass{
+margin-left: 2rem;
+}
+
+
+#btn_login{
+    padding: .8rem;
+    background-color: bisque;
+    border-radius: .5rem;
+    border-color: orange;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+      
+}
+
+#btn_login:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#reset_stat{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: sienna;
+}
+
+#btn_reset{
+    padding: .2rem;
+    border-radius: 1rem;
+    border-color: orange;
+    color: green
+    
+
+}
+
+#btn_reset:hover{
+scale: 1.1;
+}
+
+
